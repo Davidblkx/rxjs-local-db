@@ -1,0 +1,41 @@
+{
+  "name": "rxjs-local-db",
+  "version": "1.0.0",
+  "description": "local json database that uses a file or the browser storage",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@types/uuid": "^3.4.5",
+    "editorconfig": "^0.15.3",
+    "http-server": "0.11.1",
+    "rxjs": "6.5.3",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-node": "ts-node tests/node/index.ts",
+    "start-web": "http-server tests/web/",
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Davidblkx/rxjs-local-db.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "author": "david pires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davidblkx/rxjs-local-db/issues"
+  },
+  "homepage": "https://github.com/Davidblkx/rxjs-local-db#readme"
+}
